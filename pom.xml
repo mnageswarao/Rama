@@ -13,7 +13,7 @@
 	<version>0.0.1-SNAPSHOT</version>
 	<name>New</name>
 	<description>Demo project for Spring Boot</description>
-
+    <packaging>war</packaging>
 	<properties>
 		<java.version>1.8</java.version>
 	</properties>
@@ -52,7 +52,7 @@
 				<artifactId>spring-boot-maven-plugin</artifactId>
 			</plugin>
 		</plugins>
-		<finalName>Ramadocker</finalName>
+		<finalName>Ramadockertomcat</finalName>
 	</build>
   
 </project>

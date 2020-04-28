@@ -1,4 +1,2 @@
-FROM openjdk:8
-EXPOSE 8080
-ADD target/Ramadocker.jar Ramadocker.jar
-ENTRYPOINT ["java","-jar","/Ramadocker.jar"]
+FROM tomcat:8.0.20-jre8
+ADD target/Ramadockertomcat.war /usr/local/tomcat/webapps/Ramadockertomcat.war
