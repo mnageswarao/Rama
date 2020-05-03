@@ -16,6 +16,7 @@
     <packaging>war</packaging>
 	<properties>
 		<java.version>1.8</java.version>
+		<start-class>com.example.demo.NewApplication</start-class>
 	</properties>
 
 	<dependencies>
@@ -29,7 +30,12 @@
         <artifactId>spring-boot-starter-web</artifactId>
    
         </dependency>
-		
+        
+		<dependency>
+		<groupId>org.springframework.boot</groupId>
+		<artifactId>spring-boot-starter-tomcat</artifactId>
+		<scope>provided</scope>
+	   </dependency>
 
 		<dependency>
 			<groupId>org.springframework.boot</groupId>
